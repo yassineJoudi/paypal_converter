@@ -1,0 +1,5 @@
+name: 'Paypal Converter'
+description: 'Paypal Converter Payment'
+type: module
+core: 8.x
+version: 8.x-1.0

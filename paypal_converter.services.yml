@@ -1,0 +1,9 @@
+services:
+    paypal_converter.converter_settings:
+        class: Drupal\paypal_converter\ConverterSettings
+        arguments: ['@entity_type.manager', '@commerce_price.rounder']
+    paypal_converter.converter:
+        class: Drupal\paypal_converter\EventSubscriber\Settings
+        tags:
+        - {name: event_subscriber}
+    
