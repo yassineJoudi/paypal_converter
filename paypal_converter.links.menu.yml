@@ -1,0 +1,6 @@
+paypal_converter.admin:
+  title: 'Paypal Converter'
+  description: 'Paypal Converter Payment'
+  parent: commerce.store_configuration
+  route_name: paypal_converter.settings
+  weight: -100
